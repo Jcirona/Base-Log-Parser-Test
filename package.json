@@ -1,0 +1,17 @@
+{
+  "name": "mantellogparser",
+  "version": "1.0.0",
+  "main": "Helper.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.3"
+  }
+}
