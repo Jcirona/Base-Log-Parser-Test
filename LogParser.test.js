@@ -46,7 +46,7 @@ describe("happy path results", () => {
 
 describe("Sad path results", () => {
   it("Finds no ip addresses in log file", () => {
-    const logWithNoAddresses = "Testing";
+    const logWithNoAddresses = "test";
     expect(getUniqueIpAddresses(logWithNoAddresses)).toEqual(
       "No IP addresses found in the log file."
     );
