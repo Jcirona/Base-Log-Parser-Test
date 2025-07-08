@@ -34,9 +34,7 @@ export const getTopThreeVisitedUrls = (logFile) => {
     return "No URLs found in the log file";
   }
 };
-// extract similar functionality between last two functions for the iterating and slicing
-// function to loop through the file and return the data for the main functions
-// look at refactoring some of the iterating logic
+
 console.log("Number of unique IP addresses:", getUniqueIpAddresses(extractedFile));
 console.log("Top three active IP addresses", getTopThreeActiveIpAddresses(extractedFile));
 console.log("Top three urls: ", getTopThreeVisitedUrls(extractedFile));
